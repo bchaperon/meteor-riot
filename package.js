@@ -6,8 +6,8 @@ Package.describe({
   name: 'benoit:riot',
   version: riotVersion,
   summary: 'Compile Riot .tag files to Javascript, and include the Riot library on the client.',
-  git: '',
-  documentation: 'readme.md'
+  git: 'https://github.com/bchaperon/meteor-riot.git',
+  documentation: 'README.md'
 })
 
 Package.registerBuildPlugin({

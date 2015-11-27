@@ -24,6 +24,6 @@ RiotCompiler.prototype.processFilesForTarget = function (files) {
   files.forEach(compileFile)
 }
 
-Plugin.registerCompiler({ extensions: [ 'tag', 'tag.html' ] }, function () {
+Plugin.registerCompiler({ extensions: [ 'tag' ] }, function () {
   return new RiotCompiler()
 })
