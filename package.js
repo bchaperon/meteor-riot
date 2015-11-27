@@ -4,7 +4,7 @@ var riotVersion = '2.3.11'
 
 Package.describe({
   name: 'benoit:riot',
-  version: riotVersion,
+  version: riotVersion + '_1',
   summary: 'Compile Riot .tag files to Javascript, and include the Riot library on the client.',
   git: 'https://github.com/bchaperon/meteor-riot.git',
   documentation: 'README.md'
